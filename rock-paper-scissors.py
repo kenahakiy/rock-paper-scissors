@@ -22,6 +22,8 @@ elif p2 == 2:
     hand2 = "Paper"
 elif p2 == 3:
     hand2 = "Scissors"
+print("You - - - - CPU")
+print(hand1, "     ", hand2)
 
 if shoot[p2] == shoot[p1 + 1]:
     print('lose')
@@ -29,5 +31,3 @@ elif shoot[p2] == shoot[p1 - 1]:
     print('win')
 else:
     print('tie')
-print(hand1)
-print(hand2)

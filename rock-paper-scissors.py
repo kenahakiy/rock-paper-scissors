@@ -16,6 +16,7 @@ elif p1 == 3:
 shoot = [3, 1, 2, 3, 1, 2]
 p2 = random.choice(shoot)
 
+
 if p2 == 1:
     hand2 = "Rock"
 elif p2 == 2:
